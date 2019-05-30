@@ -197,7 +197,7 @@ JQSpeedTest = function(options) {
 		var sendDate = (new Date()).getTime();
 		$.ajax({
 			type: "POST",
-			url: "",
+			url: "api",
 			data: randData,
 			timeout: 60000,
 			cache: false,
